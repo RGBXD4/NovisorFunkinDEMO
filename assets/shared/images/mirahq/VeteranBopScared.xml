@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="VeteranBopScared.png">
+	<!-- Created with Adobe Animate version 18.0.0.107 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="VeteranBopScared0000" x="8" y="8" width="630" height="841" frameX="-6" frameY="-6" frameWidth="636" frameHeight="872"/>
+	<SubTexture name="VeteranBopScared0001" x="647" y="8" width="627" height="841" frameX="-6" frameY="-6" frameWidth="636" frameHeight="872"/>
+	<SubTexture name="VeteranBopScared0002" x="1283" y="8" width="630" height="804" frameX="-6" frameY="-43" frameWidth="636" frameHeight="872"/>
+	<SubTexture name="VeteranBopScared0003" x="8" y="858" width="627" height="804" frameX="-6" frameY="-43" frameWidth="636" frameHeight="872"/>
+	<SubTexture name="VeteranBopScared0004" x="644" y="858" width="630" height="812" frameX="-6" frameY="-37" frameWidth="636" frameHeight="872"/>
+	<SubTexture name="VeteranBopScared0005" x="1283" y="858" width="627" height="812" frameX="-6" frameY="-37" frameWidth="636" frameHeight="872"/>
+	<SubTexture name="VeteranBopScared0006" x="8" y="1679" width="630" height="857" frameX="-6" frameY="-6" frameWidth="636" frameHeight="872"/>
+	<SubTexture name="VeteranBopScared0007" x="647" y="1679" width="627" height="857" frameX="-6" frameY="-6" frameWidth="636" frameHeight="872"/>
+	<SubTexture name="VeteranBopScared0008" x="1283" y="1679" width="636" height="871" frameX="0" frameY="-1" frameWidth="636" frameHeight="872"/>
+	<SubTexture name="VeteranBopScared0009" x="8" y="2559" width="633" height="872" frameX="0" frameY="0" frameWidth="636" frameHeight="872"/>
+	<SubTexture name="VeteranBopScared0010" x="8" y="2559" width="633" height="872" frameX="0" frameY="0" frameWidth="636" frameHeight="872"/>
+	<SubTexture name="VeteranBopScared0011" x="1283" y="1679" width="636" height="871" frameX="0" frameY="-1" frameWidth="636" frameHeight="872"/>
+	<SubTexture name="VeteranBopScared0012" x="8" y="2559" width="633" height="872" frameX="0" frameY="0" frameWidth="636" frameHeight="872"/>
+	<SubTexture name="VeteranBopScared0013" x="8" y="2559" width="633" height="872" frameX="0" frameY="0" frameWidth="636" frameHeight="872"/>
+	<SubTexture name="VeteranBopScared0014" x="1283" y="1679" width="636" height="871" frameX="0" frameY="-1" frameWidth="636" frameHeight="872"/>
+	<SubTexture name="VeteranBopScared0015" x="8" y="2559" width="633" height="872" frameX="0" frameY="0" frameWidth="636" frameHeight="872"/>
+	<SubTexture name="VeteranBopScared0016" x="8" y="2559" width="633" height="872" frameX="0" frameY="0" frameWidth="636" frameHeight="872"/>
+	<SubTexture name="VeteranBopScared0017" x="1283" y="1679" width="636" height="871" frameX="0" frameY="-1" frameWidth="636" frameHeight="872"/>
+	<SubTexture name="VeteranBopScared0018" x="8" y="2559" width="633" height="872" frameX="0" frameY="0" frameWidth="636" frameHeight="872"/>
+	<SubTexture name="VeteranBopScared0019" x="8" y="2559" width="633" height="872" frameX="0" frameY="0" frameWidth="636" frameHeight="872"/>
+</TextureAtlas>

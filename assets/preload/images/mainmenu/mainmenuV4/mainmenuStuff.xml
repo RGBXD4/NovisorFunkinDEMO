@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mainmenuStuff.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="CreditsHover0000" x="768" y="0" width="110" height="110"/>
+	<SubTexture name="CreditsIdle0000" x="978" y="0" width="110" height="110"/>
+	<SubTexture name="DiscordHover0000" x="0" y="0" width="92" height="92"/>
+	<SubTexture name="DiscordIdle0000" x="192" y="0" width="92" height="92"/>
+	<SubTexture name="FreeplayHover0000" x="0" y="210" width="692" height="145"/>
+	<SubTexture name="FreeplayIdle0000" x="792" y="210" width="692" height="145"/>
+	<SubTexture name="OptionsHover0000" x="0" y="455" width="545" height="84"/>
+	<SubTexture name="OptionsIdle0000" x="645" y="455" width="545" height="84"/>
+	<SubTexture name="QuitHover0000" x="0" y="639" width="265" height="75"/>
+	<SubTexture name="QuitIdle0000" x="365" y="639" width="265" height="75"/>
+	<SubTexture name="TwitterHover0000" x="384" y="0" width="92" height="92"/>
+	<SubTexture name="TwitterIdle0000" x="576" y="0" width="92" height="92"/>
+</TextureAtlas>

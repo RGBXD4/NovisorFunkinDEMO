@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bubbletext.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bubble instance 10000" x="0" y="0" width="361" height="205" frameX="-4" frameY="-89" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10001" x="361" y="0" width="431" height="302" frameX="-16" frameY="-32" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10002" x="792" y="0" width="494" height="338" frameX="-19" frameY="0" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10003" x="792" y="0" width="494" height="338" frameX="-19" frameY="0" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10004" x="1286" y="0" width="495" height="336" frameX="-18" frameY="-6" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10005" x="1781" y="0" width="495" height="336" frameX="-18" frameY="-6" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10006" x="2276" y="0" width="492" height="334" frameX="-21" frameY="-2" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10007" x="2768" y="0" width="492" height="334" frameX="-21" frameY="-2" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10008" x="3260" y="0" width="494" height="338" frameX="-19" frameY="0" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10009" x="3260" y="0" width="494" height="338" frameX="-19" frameY="0" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10010" x="0" y="338" width="495" height="336" frameX="-18" frameY="-6" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10011" x="495" y="338" width="495" height="336" frameX="-18" frameY="-6" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10012" x="990" y="338" width="492" height="334" frameX="-21" frameY="-2" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10013" x="1482" y="338" width="492" height="334" frameX="-21" frameY="-2" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10014" x="1974" y="338" width="494" height="338" frameX="-19" frameY="0" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10015" x="2468" y="338" width="494" height="338" frameX="-19" frameY="0" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10016" x="2962" y="338" width="495" height="336" frameX="-18" frameY="-6" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10017" x="3457" y="338" width="495" height="336" frameX="-18" frameY="-6" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10018" x="0" y="676" width="492" height="334" frameX="-21" frameY="-2" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10019" x="492" y="676" width="492" height="334" frameX="-21" frameY="-2" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10020" x="984" y="676" width="494" height="338" frameX="-19" frameY="0" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10021" x="1478" y="676" width="494" height="338" frameX="-19" frameY="0" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10022" x="1972" y="676" width="495" height="336" frameX="-18" frameY="-6" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10023" x="2467" y="676" width="495" height="336" frameX="-18" frameY="-6" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10024" x="2962" y="676" width="492" height="334" frameX="-21" frameY="-2" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10025" x="3454" y="676" width="492" height="334" frameX="-21" frameY="-2" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10026" x="984" y="676" width="494" height="338" frameX="-19" frameY="0" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10027" x="1478" y="676" width="494" height="338" frameX="-19" frameY="0" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10028" x="0" y="1014" width="431" height="302" frameX="-16" frameY="-32" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10029" x="0" y="1014" width="431" height="302" frameX="-16" frameY="-32" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10030" x="431" y="1014" width="361" height="205" frameX="-4" frameY="-89" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10031" x="431" y="1014" width="361" height="205" frameX="-4" frameY="-89" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10032" x="792" y="1014" width="268" height="141" frameX="0" frameY="-137" frameWidth="513" frameHeight="342"/>
+	<SubTexture name="bubble instance 10033" x="792" y="1014" width="268" height="141" frameX="0" frameY="-137" frameWidth="513" frameHeight="342"/>
+</TextureAtlas>

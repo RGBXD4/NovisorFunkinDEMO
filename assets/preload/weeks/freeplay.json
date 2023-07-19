@@ -1,0 +1,107 @@
+{
+	"storyName": "",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"Protagonist",
+			"player",
+			[
+				165,
+				0,
+				77
+			]
+		],
+		[
+			"Splendor",
+			"veteran",
+			[
+				146,
+				193,
+				253
+			]
+		],
+		[
+			"Elusion",
+			"legend-novisor",
+			[
+				165,
+				0,
+				77
+			]
+		],
+		[
+			"Observance",
+			"veteran",
+			[
+				146,
+				193,
+				253
+			]
+		],
+		[
+			"Cone",
+			"cone",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Fail EXE",
+			"henryexe",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Fictional",
+			"patrick",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Ugh",
+			"player",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Queek",
+			"queekqueek",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Playman",
+			"playman",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Tutorial"
+}

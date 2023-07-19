@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="enter.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SELECTED0000" x="0" y="0" width="509" height="257" frameX="-320" frameY="0" frameWidth="1150" frameHeight="257"/>
+	<SubTexture name="SELECTED0001" x="0" y="0" width="509" height="257" frameX="-320" frameY="0" frameWidth="1150" frameHeight="257"/>
+	<SubTexture name="SELECTED0002" x="609" y="0" width="1150" height="85" frameX="0" frameY="-86" frameWidth="1150" frameHeight="257"/>
+	<SubTexture name="SELECTED0003" x="609" y="0" width="1150" height="85" frameX="0" frameY="-86" frameWidth="1150" frameHeight="257"/>
+	<SubTexture name="SELECTED0004" x="1859" y="0" width="1042" height="126" frameX="-52" frameY="-64" frameWidth="1150" frameHeight="257"/>
+	<SubTexture name="SELECTED0005" x="1859" y="0" width="1042" height="126" frameX="-52" frameY="-64" frameWidth="1150" frameHeight="257"/>
+	<SubTexture name="SELECTED0006" x="3001" y="0" width="1056" height="116" frameX="-45" frameY="-69" frameWidth="1150" frameHeight="257"/>
+	<SubTexture name="SELECTED0007" x="3001" y="0" width="1056" height="116" frameX="-45" frameY="-69" frameWidth="1150" frameHeight="257"/>
+	<SubTexture name="SELECTED0008" x="4157" y="0" width="1053" height="119" frameX="-46" frameY="-67" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="SELECTED0009" x="4157" y="0" width="1053" height="119" frameX="-46" frameY="-67" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="SELECTED0010" x="4157" y="0" width="1053" height="119" frameX="-46" frameY="-67" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="SELECTED0011" x="4157" y="0" width="1053" height="119" frameX="-46" frameY="-67" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="SELECTED0012" x="4157" y="0" width="1053" height="119" frameX="-46" frameY="-67" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="SELECTED0013" x="4157" y="0" width="1053" height="119" frameX="-46" frameY="-67" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="SELECTED0014" x="4157" y="0" width="1053" height="119" frameX="-46" frameY="-67" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="SELECTED0015" x="4157" y="0" width="1053" height="119" frameX="-46" frameY="-67" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="SELECTED0016" x="4157" y="0" width="1053" height="119" frameX="-46" frameY="-67" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="SELECTED0017" x="4157" y="0" width="1053" height="119" frameX="-46" frameY="-67" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="SELECTED0018" x="4157" y="0" width="1053" height="119" frameX="-46" frameY="-67" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="SELECTED0019" x="4157" y="0" width="1053" height="119" frameX="-46" frameY="-67" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="SELECTED0020" x="4157" y="0" width="1053" height="119" frameX="-46" frameY="-67" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="SELECTED0021" x="4157" y="0" width="1053" height="119" frameX="-46" frameY="-67" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="SELECTED0022" x="4157" y="0" width="1053" height="119" frameX="-46" frameY="-67" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="SELECTED0023" x="4157" y="0" width="1053" height="119" frameX="-46" frameY="-67" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="SELECTED0024" x="4157" y="0" width="1053" height="119" frameX="-46" frameY="-67" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="SELECTED0025" x="4157" y="0" width="1053" height="119" frameX="-46" frameY="-67" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="SELECTED0026" x="4157" y="0" width="1053" height="119" frameX="-46" frameY="-67" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="SELECTED0027" x="4157" y="0" width="1053" height="119" frameX="-46" frameY="-67" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="SELECTED0028" x="4157" y="0" width="1053" height="119" frameX="-46" frameY="-67" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="SELECTED0029" x="4157" y="0" width="1053" height="119" frameX="-46" frameY="-67" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0000" x="4157" y="0" width="1053" height="119"/>
+	<SubTexture name="pressenter0001" x="5310" y="0" width="1053" height="119"/>
+	<SubTexture name="pressenter0002" x="6463" y="0" width="1053" height="119"/>
+	<SubTexture name="pressenter0003" x="0" y="357" width="1053" height="119"/>
+	<SubTexture name="pressenter0004" x="1153" y="357" width="1053" height="119"/>
+	<SubTexture name="pressenter0005" x="2306" y="357" width="1053" height="119"/>
+	<SubTexture name="pressenter0006" x="3459" y="357" width="1053" height="119"/>
+	<SubTexture name="pressenter0007" x="4612" y="357" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0008" x="4612" y="357" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0009" x="5763" y="357" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0010" x="6914" y="357" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0011" x="0" y="576" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0012" x="1151" y="576" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0013" x="2302" y="576" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0014" x="3453" y="576" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0015" x="3453" y="576" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0016" x="4604" y="576" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0017" x="5755" y="576" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0018" x="6906" y="576" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0019" x="0" y="793" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0020" x="1151" y="793" width="1049" height="115" frameX="-2" frameY="-2" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0021" x="2300" y="793" width="1049" height="115" frameX="-2" frameY="-2" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0022" x="3449" y="793" width="1049" height="115" frameX="-2" frameY="-2" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0023" x="4598" y="793" width="1049" height="115" frameX="-2" frameY="-2" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0024" x="5747" y="793" width="1049" height="115" frameX="-2" frameY="-2" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0025" x="6896" y="793" width="1049" height="115" frameX="-2" frameY="-2" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0026" x="0" y="1010" width="1049" height="115" frameX="-2" frameY="-2" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0027" x="1149" y="1010" width="1049" height="115" frameX="-2" frameY="-2" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0028" x="2298" y="1010" width="1049" height="115" frameX="-2" frameY="-2" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0029" x="3447" y="1010" width="1049" height="115" frameX="-2" frameY="-2" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0030" x="3447" y="1010" width="1049" height="115" frameX="-2" frameY="-2" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0031" x="4596" y="1010" width="1049" height="115" frameX="-2" frameY="-2" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0032" x="5745" y="1010" width="1049" height="115" frameX="-2" frameY="-2" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0033" x="6894" y="1010" width="1047" height="113" frameX="-3" frameY="-3" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0034" x="0" y="1225" width="1047" height="113" frameX="-3" frameY="-3" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0035" x="1147" y="1225" width="1047" height="113" frameX="-3" frameY="-3" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0036" x="2294" y="1225" width="1047" height="113" frameX="-3" frameY="-3" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0037" x="3441" y="1225" width="1047" height="113" frameX="-3" frameY="-3" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0038" x="4588" y="1225" width="1047" height="113" frameX="-3" frameY="-3" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0039" x="5735" y="1225" width="1047" height="113" frameX="-3" frameY="-3" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0040" x="6882" y="1225" width="1047" height="113" frameX="-3" frameY="-3" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0041" x="0" y="1438" width="1047" height="113" frameX="-3" frameY="-3" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0042" x="1147" y="1438" width="1047" height="113" frameX="-3" frameY="-3" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0043" x="2294" y="1438" width="1047" height="113" frameX="-3" frameY="-3" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0044" x="3441" y="1438" width="1047" height="113" frameX="-3" frameY="-3" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0045" x="4588" y="1438" width="1047" height="113" frameX="-3" frameY="-3" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0046" x="5735" y="1438" width="1045" height="111" frameX="-4" frameY="-4" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0047" x="6880" y="1438" width="1045" height="111" frameX="-4" frameY="-4" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0048" x="0" y="1651" width="1045" height="111" frameX="-4" frameY="-4" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0049" x="1145" y="1651" width="1045" height="111" frameX="-4" frameY="-4" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0050" x="2290" y="1651" width="1045" height="111" frameX="-4" frameY="-4" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0051" x="3435" y="1651" width="1045" height="111" frameX="-4" frameY="-4" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0052" x="3435" y="1651" width="1045" height="111" frameX="-4" frameY="-4" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0053" x="4580" y="1651" width="1045" height="111" frameX="-4" frameY="-4" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0054" x="5725" y="1651" width="1045" height="111" frameX="-4" frameY="-4" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0055" x="6870" y="1651" width="1045" height="111" frameX="-4" frameY="-4" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0056" x="0" y="1862" width="1045" height="111" frameX="-4" frameY="-4" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0057" x="1145" y="1862" width="1045" height="111" frameX="-4" frameY="-4" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0058" x="2290" y="1862" width="1045" height="111" frameX="-4" frameY="-4" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0059" x="3435" y="1862" width="1043" height="109" frameX="-5" frameY="-5" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0060" x="3435" y="1862" width="1043" height="109" frameX="-4" frameY="-4" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0061" x="2290" y="1862" width="1045" height="111" frameX="-4" frameY="-4" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0062" x="1145" y="1862" width="1045" height="111" frameX="-4" frameY="-4" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0063" x="0" y="1862" width="1045" height="111" frameX="-4" frameY="-4" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0064" x="6870" y="1651" width="1045" height="111" frameX="-4" frameY="-4" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0065" x="5725" y="1651" width="1045" height="111" frameX="-4" frameY="-4" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0066" x="5725" y="1651" width="1045" height="111" frameX="-4" frameY="-4" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0067" x="4580" y="1651" width="1045" height="111" frameX="-4" frameY="-4" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0068" x="4578" y="1862" width="1045" height="111" frameX="-4" frameY="-4" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0069" x="5723" y="1862" width="1045" height="111" frameX="-4" frameY="-4" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0070" x="1145" y="1651" width="1045" height="111" frameX="-4" frameY="-4" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0071" x="6868" y="1862" width="1045" height="111" frameX="-4" frameY="-4" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0072" x="6880" y="1438" width="1045" height="111" frameX="-4" frameY="-4" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0073" x="0" y="2073" width="1047" height="113" frameX="-3" frameY="-3" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0074" x="1147" y="2073" width="1047" height="113" frameX="-3" frameY="-3" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0075" x="3441" y="1438" width="1047" height="113" frameX="-3" frameY="-3" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0076" x="2294" y="1438" width="1047" height="113" frameX="-3" frameY="-3" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0077" x="1147" y="1438" width="1047" height="113" frameX="-3" frameY="-3" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0078" x="0" y="1438" width="1047" height="113" frameX="-3" frameY="-3" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0079" x="2294" y="2073" width="1047" height="113" frameX="-3" frameY="-3" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0080" x="6882" y="1225" width="1047" height="113" frameX="-3" frameY="-3" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0081" x="3441" y="2073" width="1047" height="113" frameX="-3" frameY="-3" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0082" x="4588" y="2073" width="1047" height="113" frameX="-3" frameY="-3" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0083" x="2294" y="1225" width="1047" height="113" frameX="-3" frameY="-3" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0084" x="5735" y="2073" width="1047" height="113" frameX="-3" frameY="-3" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0085" x="0" y="1225" width="1047" height="113" frameX="-3" frameY="-3" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0086" x="6882" y="2073" width="1049" height="115" frameX="-2" frameY="-2" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0087" x="0" y="2288" width="1049" height="115" frameX="-2" frameY="-2" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0088" x="1149" y="2288" width="1049" height="115" frameX="-2" frameY="-2" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0089" x="4596" y="1010" width="1049" height="115" frameX="-2" frameY="-2" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0090" x="3447" y="1010" width="1049" height="115" frameX="-2" frameY="-2" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0091" x="2298" y="1010" width="1049" height="115" frameX="-2" frameY="-2" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0092" x="1149" y="1010" width="1049" height="115" frameX="-2" frameY="-2" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0093" x="1149" y="1010" width="1049" height="115" frameX="-2" frameY="-2" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0094" x="2298" y="2288" width="1049" height="115" frameX="-2" frameY="-2" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0095" x="3447" y="2288" width="1049" height="115" frameX="-2" frameY="-2" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0096" x="4596" y="2288" width="1049" height="115" frameX="-2" frameY="-2" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0097" x="3449" y="793" width="1049" height="115" frameX="-2" frameY="-2" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0098" x="2300" y="793" width="1049" height="115" frameX="-2" frameY="-2" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0099" x="5745" y="2288" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0100" x="5745" y="2288" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0101" x="6896" y="2288" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0102" x="6906" y="576" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0103" x="0" y="2505" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0104" x="4604" y="576" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0105" x="3453" y="576" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0106" x="3453" y="576" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0107" x="2302" y="576" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0108" x="1151" y="2505" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0109" x="2302" y="2505" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0110" x="3453" y="2505" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0111" x="4604" y="2505" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0112" x="4612" y="357" width="1051" height="117" frameX="-1" frameY="-1" frameWidth="1053" frameHeight="119"/>
+	<SubTexture name="pressenter0113" x="5755" y="2505" width="1053" height="119"/>
+	<SubTexture name="pressenter0114" x="3459" y="357" width="1053" height="119"/>
+	<SubTexture name="pressenter0115" x="2306" y="357" width="1053" height="119"/>
+	<SubTexture name="pressenter0116" x="6908" y="2505" width="1053" height="119"/>
+	<SubTexture name="pressenter0117" x="0" y="357" width="1053" height="119"/>
+	<SubTexture name="pressenter0118" x="6463" y="0" width="1053" height="119"/>
+	<SubTexture name="pressenter0119" x="4157" y="0" width="1053" height="119"/>
+</TextureAtlas>

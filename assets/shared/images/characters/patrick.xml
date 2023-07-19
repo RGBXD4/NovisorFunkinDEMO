@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="patrick.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="patrick confirmed0000" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0001" x="710" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0002" x="710" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0003" x="1420" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0004" x="2130" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0005" x="2130" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0006" x="2840" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0007" x="3550" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0008" x="3550" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0009" x="4260" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0010" x="4970" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0011" x="5680" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0012" x="6390" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0013" x="7100" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0014" x="0" y="891" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0015" x="0" y="891" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0016" x="710" y="891" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0017" x="1420" y="891" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0018" x="1420" y="891" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0019" x="2130" y="891" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0020" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0021" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0022" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0023" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0024" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0025" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0026" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0027" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0028" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0029" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0030" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0031" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0032" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0033" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0034" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0035" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0036" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0037" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0038" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0039" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0040" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0041" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0042" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0043" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0044" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0045" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0046" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0047" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0048" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick confirmed0049" x="0" y="0" width="610" height="791"/>
+	<SubTexture name="patrick dead0000" x="2840" y="891" width="671" height="787" frameX="-272" frameY="-4" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0001" x="2840" y="891" width="671" height="787" frameX="-272" frameY="-4" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0002" x="3611" y="891" width="693" height="791" frameX="-269" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0003" x="3611" y="891" width="693" height="791" frameX="-269" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0004" x="4404" y="891" width="655" height="791" frameX="-271" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0005" x="4404" y="891" width="655" height="791" frameX="-271" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0006" x="4404" y="891" width="655" height="791" frameX="-271" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0007" x="4404" y="891" width="655" height="791" frameX="-271" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0008" x="4404" y="891" width="655" height="791" frameX="-271" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0009" x="4404" y="891" width="655" height="791" frameX="-271" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0010" x="4404" y="891" width="655" height="791" frameX="-271" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0011" x="4404" y="891" width="655" height="791" frameX="-271" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0012" x="4404" y="891" width="655" height="791" frameX="-271" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0013" x="5159" y="891" width="655" height="791" frameX="-271" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0014" x="5159" y="891" width="655" height="791" frameX="-271" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0015" x="5914" y="891" width="648" height="791" frameX="-278" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0016" x="5914" y="891" width="648" height="791" frameX="-278" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0017" x="6662" y="891" width="691" height="791" frameX="-235" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0018" x="6662" y="891" width="691" height="791" frameX="-235" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0019" x="0" y="1782" width="797" height="791" frameX="-129" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0020" x="0" y="1782" width="797" height="791" frameX="-129" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0021" x="897" y="1782" width="868" height="855" frameX="-58" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0022" x="897" y="1782" width="868" height="855" frameX="-58" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0023" x="1865" y="1782" width="926" height="1012" frameX="0" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0024" x="1865" y="1782" width="926" height="1012" frameX="0" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0025" x="2891" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0026" x="2891" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0027" x="2891" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0028" x="2891" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0029" x="2891" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0030" x="2891" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0031" x="2891" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0032" x="2891" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0033" x="2891" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0034" x="2891" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0035" x="2891" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0036" x="2891" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0037" x="3601" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0038" x="3601" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0039" x="3601" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0040" x="4311" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0041" x="4311" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0042" x="4311" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0043" x="4311" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0044" x="5021" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0045" x="5021" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0046" x="5021" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0047" x="5021" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0048" x="5021" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0049" x="5731" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0050" x="5731" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0051" x="5731" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0052" x="5731" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0053" x="5731" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0054" x="6441" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0055" x="6441" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0056" x="6441" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0057" x="6441" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0058" x="6441" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead0059" x="6441" y="1782" width="610" height="791" frameX="-316" frameY="0" frameWidth="962" frameHeight="1012"/>
+	<SubTexture name="patrick dead loop0000" x="7151" y="1782" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0001" x="0" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0002" x="0" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0003" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0004" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0005" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0006" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0007" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0008" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0009" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0010" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0011" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0012" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0013" x="1420" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0014" x="2130" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0015" x="2130" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0016" x="7151" y="1782" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0017" x="7151" y="1782" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0018" x="0" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0019" x="0" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0020" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0021" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0022" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0023" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0024" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0025" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0026" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0027" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0028" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0029" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0030" x="1420" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0031" x="2130" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0032" x="2130" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0033" x="7151" y="1782" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0034" x="7151" y="1782" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0035" x="0" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0036" x="0" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0037" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0038" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0039" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0040" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0041" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0042" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0043" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick dead loop0044" x="710" y="2894" width="610" height="791"/>
+	<SubTexture name="patrick donw0000" x="2840" y="2894" width="644" height="764" frameX="0" frameY="-27" frameWidth="644" frameHeight="791"/>
+	<SubTexture name="patrick donw0001" x="2840" y="2894" width="644" height="764" frameX="0" frameY="-27" frameWidth="644" frameHeight="791"/>
+	<SubTexture name="patrick donw0002" x="3584" y="2894" width="614" height="790" frameX="-16" frameY="-1" frameWidth="644" frameHeight="791"/>
+	<SubTexture name="patrick donw0003" x="3584" y="2894" width="614" height="790" frameX="-16" frameY="-1" frameWidth="644" frameHeight="791"/>
+	<SubTexture name="patrick donw0004" x="4298" y="2894" width="610" height="791" frameX="-20" frameY="0" frameWidth="644" frameHeight="791"/>
+	<SubTexture name="patrick donw0005" x="4298" y="2894" width="610" height="791" frameX="-20" frameY="0" frameWidth="644" frameHeight="791"/>
+	<SubTexture name="patrick donw0006" x="5008" y="2894" width="610" height="791" frameX="-20" frameY="0" frameWidth="644" frameHeight="791"/>
+	<SubTexture name="patrick donw0007" x="5008" y="2894" width="610" height="791" frameX="-20" frameY="0" frameWidth="644" frameHeight="791"/>
+	<SubTexture name="patrick donw0008" x="5718" y="2894" width="610" height="791" frameX="-20" frameY="0" frameWidth="644" frameHeight="791"/>
+	<SubTexture name="patrick donw0009" x="5718" y="2894" width="610" height="791" frameX="-20" frameY="0" frameWidth="644" frameHeight="791"/>
+	<SubTexture name="patrick idle0000" x="6428" y="2894" width="626" height="765" frameX="0" frameY="-26" frameWidth="626" frameHeight="791"/>
+	<SubTexture name="patrick idle0001" x="6428" y="2894" width="626" height="765" frameX="0" frameY="-26" frameWidth="626" frameHeight="791"/>
+	<SubTexture name="patrick idle0002" x="7154" y="2894" width="616" height="782" frameX="-7" frameY="-8" frameWidth="626" frameHeight="791"/>
+	<SubTexture name="patrick idle0003" x="7154" y="2894" width="616" height="782" frameX="-7" frameY="-8" frameWidth="626" frameHeight="791"/>
+	<SubTexture name="patrick idle0004" x="0" y="3785" width="609" height="790" frameX="-13" frameY="0" frameWidth="626" frameHeight="791"/>
+	<SubTexture name="patrick idle0005" x="0" y="3785" width="609" height="790" frameX="-13" frameY="0" frameWidth="626" frameHeight="791"/>
+	<SubTexture name="patrick idle0006" x="709" y="3785" width="610" height="789" frameX="-12" frameY="-1" frameWidth="626" frameHeight="791"/>
+	<SubTexture name="patrick idle0007" x="709" y="3785" width="610" height="789" frameX="-12" frameY="-1" frameWidth="626" frameHeight="791"/>
+	<SubTexture name="patrick idle0008" x="5718" y="2894" width="610" height="791" frameX="-12" frameY="0" frameWidth="644" frameHeight="791"/>
+	<SubTexture name="patrick idle0009" x="5718" y="2894" width="610" height="791" frameX="-12" frameY="0" frameWidth="644" frameHeight="791"/>
+	<SubTexture name="patrick left0000" x="1419" y="3785" width="617" height="778" frameX="0" frameY="-13" frameWidth="622" frameHeight="791"/>
+	<SubTexture name="patrick left0001" x="1419" y="3785" width="617" height="778" frameX="0" frameY="-13" frameWidth="622" frameHeight="791"/>
+	<SubTexture name="patrick left0002" x="2136" y="3785" width="611" height="790" frameX="-11" frameY="-1" frameWidth="622" frameHeight="791"/>
+	<SubTexture name="patrick left0003" x="2136" y="3785" width="611" height="790" frameX="-11" frameY="-1" frameWidth="622" frameHeight="791"/>
+	<SubTexture name="patrick left0004" x="2847" y="3785" width="610" height="791" frameX="-12" frameY="0" frameWidth="622" frameHeight="791"/>
+	<SubTexture name="patrick left0005" x="2847" y="3785" width="610" height="791" frameX="-12" frameY="0" frameWidth="622" frameHeight="791"/>
+	<SubTexture name="patrick left0006" x="3557" y="3785" width="610" height="791" frameX="-12" frameY="0" frameWidth="622" frameHeight="791"/>
+	<SubTexture name="patrick left0007" x="3557" y="3785" width="610" height="791" frameX="-12" frameY="0" frameWidth="622" frameHeight="791"/>
+	<SubTexture name="patrick left0008" x="5718" y="2894" width="610" height="791" frameX="-12" frameY="0" frameWidth="644" frameHeight="791"/>
+	<SubTexture name="patrick left0009" x="5718" y="2894" width="610" height="791" frameX="-12" frameY="0" frameWidth="644" frameHeight="791"/>
+	<SubTexture name="patrick miss0000" x="4267" y="3785" width="610" height="790" frameX="0" frameY="-1" frameWidth="610" frameHeight="791"/>
+	<SubTexture name="patrick miss0001" x="4267" y="3785" width="610" height="790" frameX="0" frameY="-1" frameWidth="610" frameHeight="791"/>
+	<SubTexture name="patrick miss0002" x="4267" y="3785" width="610" height="790" frameX="0" frameY="-1" frameWidth="610" frameHeight="791"/>
+	<SubTexture name="patrick miss0003" x="4267" y="3785" width="610" height="790" frameX="0" frameY="-1" frameWidth="610" frameHeight="791"/>
+	<SubTexture name="patrick miss0004" x="4977" y="3785" width="610" height="791"/>
+	<SubTexture name="patrick miss0005" x="4977" y="3785" width="610" height="791"/>
+	<SubTexture name="patrick right0000" x="5687" y="3785" width="614" height="779" frameX="-5" frameY="-12" frameWidth="619" frameHeight="791"/>
+	<SubTexture name="patrick right0001" x="5687" y="3785" width="614" height="779" frameX="-5" frameY="-12" frameWidth="619" frameHeight="791"/>
+	<SubTexture name="patrick right0002" x="6401" y="3785" width="610" height="791" frameX="-4" frameY="0" frameWidth="619" frameHeight="791"/>
+	<SubTexture name="patrick right0003" x="6401" y="3785" width="610" height="791" frameX="-4" frameY="0" frameWidth="619" frameHeight="791"/>
+	<SubTexture name="patrick right0004" x="7111" y="3785" width="610" height="791" frameX="-4" frameY="0" frameWidth="619" frameHeight="791"/>
+	<SubTexture name="patrick right0005" x="7111" y="3785" width="610" height="791" frameX="-4" frameY="0" frameWidth="619" frameHeight="791"/>
+	<SubTexture name="patrick right0006" x="0" y="4676" width="611" height="791" frameX="-1" frameY="0" frameWidth="619" frameHeight="791"/>
+	<SubTexture name="patrick right0007" x="0" y="4676" width="611" height="791" frameX="-1" frameY="0" frameWidth="619" frameHeight="791"/>
+	<SubTexture name="patrick right0008" x="711" y="4676" width="612" height="791" frameX="0" frameY="0" frameWidth="619" frameHeight="791"/>
+	<SubTexture name="patrick right0009" x="711" y="4676" width="612" height="791" frameX="0" frameY="0" frameWidth="619" frameHeight="791"/>
+	<SubTexture name="patrick up0000" x="1423" y="4676" width="563" height="821" frameX="-32" frameY="0" frameWidth="617" frameHeight="821"/>
+	<SubTexture name="patrick up0001" x="1423" y="4676" width="563" height="821" frameX="-32" frameY="0" frameWidth="617" frameHeight="821"/>
+	<SubTexture name="patrick up0002" x="2086" y="4676" width="595" height="805" frameX="-13" frameY="-16" frameWidth="617" frameHeight="821"/>
+	<SubTexture name="patrick up0003" x="2086" y="4676" width="595" height="805" frameX="-13" frameY="-16" frameWidth="617" frameHeight="821"/>
+	<SubTexture name="patrick up0004" x="2781" y="4676" width="610" height="791" frameX="-4" frameY="-30" frameWidth="617" frameHeight="821"/>
+	<SubTexture name="patrick up0005" x="2781" y="4676" width="610" height="791" frameX="-4" frameY="-30" frameWidth="617" frameHeight="821"/>
+	<SubTexture name="patrick up0006" x="3491" y="4676" width="617" height="788" frameX="0" frameY="-33" frameWidth="617" frameHeight="821"/>
+	<SubTexture name="patrick up0007" x="3491" y="4676" width="617" height="788" frameX="0" frameY="-33" frameWidth="617" frameHeight="821"/>
+	<SubTexture name="patrick up0008" x="5718" y="2894" width="610" height="791" frameX="-4" frameY="-30" frameWidth="644" frameHeight="791"/>
+	<SubTexture name="patrick up0009" x="5718" y="2894" width="610" height="791" frameX="-4" frameY="-30" frameWidth="644" frameHeight="791"/>
+</TextureAtlas>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="playman.png">
+<SubTexture name="player down0000" x="1022" y="654" width="313" height="165" frameX="-136" frameY="-393" frameWidth="600" frameHeight="600" />
+<SubTexture name="player down0001" x="1022" y="654" width="313" height="165" frameX="-136" frameY="-393" frameWidth="600" frameHeight="600" />
+<SubTexture name="player down0002" x="1022" y="819" width="313" height="156" frameX="-136" frameY="-402" frameWidth="600" frameHeight="600" />
+<SubTexture name="player down0003" x="1022" y="819" width="313" height="156" frameX="-136" frameY="-402" frameWidth="600" frameHeight="600" />
+<SubTexture name="player down0004" x="313" y="1248" width="313" height="144" frameX="-136" frameY="-414" frameWidth="600" frameHeight="600" />
+<SubTexture name="player down0005" x="313" y="1248" width="313" height="144" frameX="-136" frameY="-414" frameWidth="600" frameHeight="600" />
+<SubTexture name="player down0006" x="0" y="1248" width="313" height="156" frameX="-136" frameY="-402" frameWidth="600" frameHeight="600" />
+<SubTexture name="player down0007" x="0" y="1248" width="313" height="156" frameX="-136" frameY="-402" frameWidth="600" frameHeight="600" />
+<SubTexture name="player idle0000" x="161" y="0" width="351" height="501" frameX="-56" frameY="-80" frameWidth="600" frameHeight="600" />
+<SubTexture name="player idle0001" x="161" y="0" width="351" height="501" frameX="-56" frameY="-80" frameWidth="600" frameHeight="600" />
+<SubTexture name="player idle0002" x="502" y="503" width="342" height="478" frameX="-67" frameY="-103" frameWidth="600" frameHeight="600" />
+<SubTexture name="player idle0003" x="502" y="503" width="342" height="478" frameX="-67" frameY="-103" frameWidth="600" frameHeight="600" />
+<SubTexture name="player idle0004" x="161" y="503" width="341" height="490" frameX="-67" frameY="-91" frameWidth="600" frameHeight="600" />
+<SubTexture name="player idle0005" x="161" y="503" width="341" height="490" frameX="-67" frameY="-91" frameWidth="600" frameHeight="600" />
+<SubTexture name="player idle0006" x="512" y="0" width="349" height="496" frameX="-59" frameY="-85" frameWidth="600" frameHeight="600" />
+<SubTexture name="player idle0007" x="512" y="0" width="349" height="496" frameX="-59" frameY="-85" frameWidth="600" frameHeight="600" />
+<SubTexture name="player left0000" x="1022" y="0" width="449" height="254" frameX="-45" frameY="-332" frameWidth="600" frameHeight="600" />
+<SubTexture name="player left0001" x="1022" y="0" width="449" height="254" frameX="-45" frameY="-332" frameWidth="600" frameHeight="600" />
+<SubTexture name="player left0002" x="0" y="994" width="457" height="254" frameX="-37" frameY="-332" frameWidth="600" frameHeight="600" />
+<SubTexture name="player left0003" x="0" y="994" width="457" height="254" frameX="-37" frameY="-332" frameWidth="600" frameHeight="600" />
+<SubTexture name="player left0004" x="457" y="994" width="470" height="254" frameX="-24" frameY="-332" frameWidth="600" frameHeight="600" />
+<SubTexture name="player left0005" x="457" y="994" width="470" height="254" frameX="-24" frameY="-332" frameWidth="600" frameHeight="600" />
+<SubTexture name="player left0006" x="927" y="994" width="457" height="254" frameX="-37" frameY="-332" frameWidth="600" frameHeight="600" />
+<SubTexture name="player left0007" x="927" y="994" width="457" height="254" frameX="-37" frameY="-332" frameWidth="600" frameHeight="600" />
+<SubTexture name="player right0000" x="1022" y="254" width="200" height="200" frameX="-213" frameY="-371" frameWidth="600" frameHeight="600" />
+<SubTexture name="player right0001" x="1022" y="254" width="200" height="200" frameX="-213" frameY="-371" frameWidth="600" frameHeight="600" />
+<SubTexture name="player right0002" x="1222" y="254" width="224" height="200" frameX="-213" frameY="-371" frameWidth="600" frameHeight="600" />
+<SubTexture name="player right0003" x="1222" y="254" width="224" height="200" frameX="-213" frameY="-371" frameWidth="600" frameHeight="600" />
+<SubTexture name="player right0004" x="1022" y="454" width="235" height="200" frameX="-213" frameY="-371" frameWidth="600" frameHeight="600" />
+<SubTexture name="player right0005" x="1022" y="454" width="235" height="200" frameX="-213" frameY="-371" frameWidth="600" frameHeight="600" />
+<SubTexture name="player right0006" x="1222" y="254" width="224" height="200" frameX="-213" frameY="-371" frameWidth="600" frameHeight="600" />
+<SubTexture name="player right0007" x="1222" y="254" width="224" height="200" frameX="-213" frameY="-371" frameWidth="600" frameHeight="600" />
+<SubTexture name="player up0000" x="844" y="503" width="161" height="469" frameX="-225" frameY="-86" frameWidth="600" frameHeight="600" />
+<SubTexture name="player up0001" x="844" y="503" width="161" height="469" frameX="-225" frameY="-86" frameWidth="600" frameHeight="600" />
+<SubTexture name="player up0002" x="861" y="0" width="161" height="491" frameX="-225" frameY="-64" frameWidth="600" frameHeight="600" />
+<SubTexture name="player up0003" x="861" y="0" width="161" height="491" frameX="-225" frameY="-64" frameWidth="600" frameHeight="600" />
+<SubTexture name="player up0004" x="0" y="0" width="161" height="503" frameX="-225" frameY="-52" frameWidth="600" frameHeight="600" />
+<SubTexture name="player up0005" x="0" y="0" width="161" height="503" frameX="-225" frameY="-52" frameWidth="600" frameHeight="600" />
+<SubTexture name="player up0006" x="0" y="503" width="161" height="491" frameX="-225" frameY="-64" frameWidth="600" frameHeight="600" />
+<SubTexture name="player up0007" x="0" y="503" width="161" height="491" frameX="-225" frameY="-64" frameWidth="600" frameHeight="600" />
+</TextureAtlas>

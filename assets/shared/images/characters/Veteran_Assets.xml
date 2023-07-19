@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Veteran_Assets.png">
+	<!-- Created with Adobe Animate version 18.0.0.107 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="VeteranDown0000" x="8" y="8" width="552" height="500" frameX="0" frameY="0" frameWidth="553" frameHeight="500"/>
+	<SubTexture name="VeteranDown0001" x="8" y="8" width="552" height="500" frameX="0" frameY="0" frameWidth="553" frameHeight="500"/>
+	<SubTexture name="VeteranDown0002" x="569" y="8" width="548" height="462" frameX="-5" frameY="-13" frameWidth="553" frameHeight="500"/>
+	<SubTexture name="VeteranDown0003" x="569" y="8" width="548" height="462" frameX="-5" frameY="-13" frameWidth="553" frameHeight="500"/>
+	<SubTexture name="VeteranDown0004" x="1126" y="8" width="549" height="462" frameX="-4" frameY="-14" frameWidth="553" frameHeight="500"/>
+	<SubTexture name="VeteranDown0005" x="1126" y="8" width="549" height="462" frameX="-4" frameY="-14" frameWidth="553" frameHeight="500"/>
+	<SubTexture name="VeteranDown0006" x="1126" y="8" width="549" height="462" frameX="-4" frameY="-14" frameWidth="553" frameHeight="500"/>
+	<SubTexture name="VeteranDown0007" x="1126" y="8" width="549" height="462" frameX="-4" frameY="-14" frameWidth="553" frameHeight="500"/>
+	<SubTexture name="VeteranDown0008" x="1126" y="8" width="549" height="462" frameX="-4" frameY="-14" frameWidth="553" frameHeight="500"/>
+	<SubTexture name="VeteranDown0009" x="1126" y="8" width="549" height="462" frameX="-4" frameY="-14" frameWidth="553" frameHeight="500"/>
+	<SubTexture name="VeteranIdle0000" x="8" y="517" width="444" height="524" frameX="0" frameY="-2" frameWidth="475" frameHeight="526"/>
+	<SubTexture name="VeteranIdle0001" x="8" y="517" width="444" height="524" frameX="0" frameY="-2" frameWidth="475" frameHeight="526"/>
+	<SubTexture name="VeteranIdle0002" x="461" y="517" width="442" height="518" frameX="-5" frameY="-7" frameWidth="475" frameHeight="526"/>
+	<SubTexture name="VeteranIdle0003" x="461" y="517" width="442" height="518" frameX="-5" frameY="-7" frameWidth="475" frameHeight="526"/>
+	<SubTexture name="VeteranIdle0004" x="912" y="517" width="454" height="514" frameX="-7" frameY="-7" frameWidth="475" frameHeight="526"/>
+	<SubTexture name="VeteranIdle0005" x="912" y="517" width="454" height="514" frameX="-7" frameY="-7" frameWidth="475" frameHeight="526"/>
+	<SubTexture name="VeteranIdle0006" x="1375" y="517" width="463" height="510" frameX="-9" frameY="-2" frameWidth="475" frameHeight="526"/>
+	<SubTexture name="VeteranIdle0007" x="1375" y="517" width="463" height="510" frameX="-9" frameY="-2" frameWidth="475" frameHeight="526"/>
+	<SubTexture name="VeteranIdle0008" x="8" y="1050" width="467" height="510" frameX="-8" frameY="0" frameWidth="475" frameHeight="526"/>
+	<SubTexture name="VeteranIdle0009" x="8" y="1050" width="467" height="510" frameX="-8" frameY="0" frameWidth="475" frameHeight="526"/>
+	<SubTexture name="VeteranIdle0010" x="8" y="1050" width="467" height="510" frameX="-8" frameY="0" frameWidth="475" frameHeight="526"/>
+	<SubTexture name="VeteranIdle0011" x="8" y="1050" width="467" height="510" frameX="-8" frameY="0" frameWidth="475" frameHeight="526"/>
+	<SubTexture name="VeteranIdle0012" x="8" y="1050" width="467" height="510" frameX="-8" frameY="0" frameWidth="475" frameHeight="526"/>
+	<SubTexture name="VeteranIdle0013" x="8" y="1050" width="467" height="510" frameX="-8" frameY="0" frameWidth="475" frameHeight="526"/>
+	<SubTexture name="VeteranIdle0014" x="8" y="1050" width="467" height="510" frameX="-8" frameY="0" frameWidth="475" frameHeight="526"/>
+	<SubTexture name="VeteranIdle0015" x="8" y="1050" width="467" height="510" frameX="-8" frameY="0" frameWidth="475" frameHeight="526"/>
+	<SubTexture name="VeteranIdle0016" x="8" y="1050" width="467" height="510" frameX="-8" frameY="0" frameWidth="475" frameHeight="526"/>
+	<SubTexture name="VeteranIdle0017" x="8" y="1050" width="467" height="510" frameX="-8" frameY="0" frameWidth="475" frameHeight="526"/>
+	<SubTexture name="VeteranIdle0018" x="8" y="1050" width="467" height="510" frameX="-8" frameY="0" frameWidth="475" frameHeight="526"/>
+	<SubTexture name="VeteranIdle0019" x="8" y="1050" width="467" height="510" frameX="-8" frameY="0" frameWidth="475" frameHeight="526"/>
+	<SubTexture name="VeteranLeft0000" x="484" y="1050" width="668" height="406" frameX="0" frameY="0" frameWidth="730" frameHeight="406"/>
+	<SubTexture name="VeteranLeft0001" x="484" y="1050" width="668" height="406" frameX="0" frameY="0" frameWidth="730" frameHeight="406"/>
+	<SubTexture name="VeteranLeft0002" x="1161" y="1050" width="689" height="402" frameX="-33" frameY="-4" frameWidth="730" frameHeight="406"/>
+	<SubTexture name="VeteranLeft0003" x="1161" y="1050" width="689" height="402" frameX="-33" frameY="-4" frameWidth="730" frameHeight="406"/>
+	<SubTexture name="VeteranLeft0004" x="8" y="1569" width="694" height="401" frameX="-36" frameY="-5" frameWidth="730" frameHeight="406"/>
+	<SubTexture name="VeteranLeft0005" x="8" y="1569" width="694" height="401" frameX="-36" frameY="-5" frameWidth="730" frameHeight="406"/>
+	<SubTexture name="VeteranLeft0006" x="8" y="1569" width="694" height="401" frameX="-36" frameY="-5" frameWidth="730" frameHeight="406"/>
+	<SubTexture name="VeteranLeft0007" x="8" y="1569" width="694" height="401" frameX="-36" frameY="-5" frameWidth="730" frameHeight="406"/>
+	<SubTexture name="VeteranLeft0008" x="8" y="1569" width="694" height="401" frameX="-36" frameY="-5" frameWidth="730" frameHeight="406"/>
+	<SubTexture name="VeteranLeft0009" x="8" y="1569" width="694" height="401" frameX="-36" frameY="-5" frameWidth="730" frameHeight="406"/>
+	<SubTexture name="VeteranRight0000" x="711" y="1569" width="501" height="478" frameX="-60" frameY="-10" frameWidth="561" frameHeight="492"/>
+	<SubTexture name="VeteranRight0001" x="711" y="1569" width="501" height="478" frameX="-60" frameY="-10" frameWidth="561" frameHeight="492"/>
+	<SubTexture name="VeteranRight0002" x="1221" y="1569" width="541" height="492" frameX="-3" frameY="0" frameWidth="561" frameHeight="492"/>
+	<SubTexture name="VeteranRight0003" x="1221" y="1569" width="541" height="492" frameX="-3" frameY="0" frameWidth="561" frameHeight="492"/>
+	<SubTexture name="VeteranRight0004" x="8" y="2070" width="542" height="492" frameX="0" frameY="0" frameWidth="561" frameHeight="492"/>
+	<SubTexture name="VeteranRight0005" x="8" y="2070" width="542" height="492" frameX="0" frameY="0" frameWidth="561" frameHeight="492"/>
+	<SubTexture name="VeteranRight0006" x="8" y="2070" width="542" height="492" frameX="0" frameY="0" frameWidth="561" frameHeight="492"/>
+	<SubTexture name="VeteranRight0007" x="8" y="2070" width="542" height="492" frameX="0" frameY="0" frameWidth="561" frameHeight="492"/>
+	<SubTexture name="VeteranRight0008" x="8" y="2070" width="542" height="492" frameX="0" frameY="0" frameWidth="561" frameHeight="492"/>
+	<SubTexture name="VeteranRight0009" x="8" y="2070" width="542" height="492" frameX="0" frameY="0" frameWidth="561" frameHeight="492"/>
+	<SubTexture name="VeteranUP0000" x="559" y="2070" width="598" height="466" frameX="-1" frameY="0" frameWidth="625" frameHeight="466"/>
+	<SubTexture name="VeteranUP0001" x="559" y="2070" width="598" height="466" frameX="-1" frameY="0" frameWidth="625" frameHeight="466"/>
+	<SubTexture name="VeteranUP0002" x="1166" y="2070" width="624" height="446" frameX="-1" frameY="-20" frameWidth="625" frameHeight="466"/>
+	<SubTexture name="VeteranUP0003" x="1166" y="2070" width="624" height="446" frameX="-1" frameY="-20" frameWidth="625" frameHeight="466"/>
+	<SubTexture name="VeteranUP0004" x="8" y="2571" width="624" height="445" frameX="0" frameY="-21" frameWidth="625" frameHeight="466"/>
+	<SubTexture name="VeteranUP0005" x="8" y="2571" width="624" height="445" frameX="0" frameY="-21" frameWidth="625" frameHeight="466"/>
+	<SubTexture name="VeteranUP0006" x="8" y="2571" width="624" height="445" frameX="0" frameY="-21" frameWidth="625" frameHeight="466"/>
+	<SubTexture name="VeteranUP0007" x="8" y="2571" width="624" height="445" frameX="0" frameY="-21" frameWidth="625" frameHeight="466"/>
+	<SubTexture name="VeteranUP0008" x="8" y="2571" width="624" height="445" frameX="0" frameY="-21" frameWidth="625" frameHeight="466"/>
+	<SubTexture name="VeteranUP0009" x="8" y="2571" width="624" height="445" frameX="0" frameY="-21" frameWidth="625" frameHeight="466"/>
+</TextureAtlas>

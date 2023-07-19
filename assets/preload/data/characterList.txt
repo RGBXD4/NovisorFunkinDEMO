@@ -1,0 +1,7 @@
+bf
+gf
+bf-car
+gf-car
+bf-pixel
+gf-pixel
+bf-pixel-opponent

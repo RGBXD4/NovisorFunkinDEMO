@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="go.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="go0000" x="0" y="0" width="188" height="159" frameX="-67" frameY="-171" frameWidth="584" frameHeight="481"/>
+	<SubTexture name="go0001" x="0" y="0" width="188" height="159" frameX="-67" frameY="-171" frameWidth="584" frameHeight="481"/>
+	<SubTexture name="go0002" x="188" y="0" width="216" height="185" frameX="-89" frameY="-161" frameWidth="584" frameHeight="481"/>
+	<SubTexture name="go0003" x="188" y="0" width="216" height="185" frameX="-89" frameY="-161" frameWidth="584" frameHeight="481"/>
+	<SubTexture name="go0004" x="404" y="0" width="580" height="481" frameX="-4" frameY="0" frameWidth="584" frameHeight="481"/>
+	<SubTexture name="go0005" x="404" y="0" width="580" height="481" frameX="-4" frameY="0" frameWidth="584" frameHeight="481"/>
+	<SubTexture name="go0006" x="0" y="481" width="507" height="425" frameX="0" frameY="-36" frameWidth="584" frameHeight="481"/>
+	<SubTexture name="go0007" x="0" y="481" width="507" height="425" frameX="0" frameY="-36" frameWidth="584" frameHeight="481"/>
+</TextureAtlas>

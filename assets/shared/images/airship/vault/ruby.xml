@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="rube-floating.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="rube-floatiggg0000" x="0" y="0" width="356" height="485" frameX="-1" frameY="0" frameWidth="357" frameHeight="502"/>
+	<SubTexture name="rube-floatiggg0001" x="0" y="0" width="356" height="485" frameX="-1" frameY="0" frameWidth="357" frameHeight="502"/>
+	<SubTexture name="rube-floatiggg0002" x="356" y="0" width="354" height="488" frameX="-2" frameY="-1" frameWidth="357" frameHeight="502"/>
+	<SubTexture name="rube-floatiggg0003" x="356" y="0" width="354" height="488" frameX="-2" frameY="-1" frameWidth="357" frameHeight="502"/>
+	<SubTexture name="rube-floatiggg0004" x="710" y="0" width="356" height="485" frameX="-1" frameY="-8" frameWidth="357" frameHeight="502"/>
+	<SubTexture name="rube-floatiggg0005" x="710" y="0" width="356" height="485" frameX="-1" frameY="-8" frameWidth="357" frameHeight="502"/>
+	<SubTexture name="rube-floatiggg0006" x="0" y="0" width="356" height="485" frameX="-1" frameY="-17" frameWidth="357" frameHeight="502"/>
+	<SubTexture name="rube-floatiggg0007" x="0" y="0" width="356" height="485" frameX="-1" frameY="-17" frameWidth="357" frameHeight="502"/>
+	<SubTexture name="rube-floatiggg0008" x="1066" y="0" width="356" height="486" frameX="-1" frameY="-15" frameWidth="357" frameHeight="502"/>
+	<SubTexture name="rube-floatiggg0009" x="1066" y="0" width="356" height="486" frameX="-1" frameY="-15" frameWidth="357" frameHeight="502"/>
+	<SubTexture name="rube-floatiggg0010" x="710" y="0" width="356" height="485" frameX="-1" frameY="-12" frameWidth="357" frameHeight="502"/>
+	<SubTexture name="rube-floatiggg0011" x="710" y="0" width="356" height="485" frameX="-1" frameY="-12" frameWidth="357" frameHeight="502"/>
+	<SubTexture name="rube-floatiggg0012" x="1422" y="0" width="357" height="482" frameX="0" frameY="-9" frameWidth="357" frameHeight="502"/>
+	<SubTexture name="rube-floatiggg0013" x="1422" y="0" width="357" height="482" frameX="0" frameY="-9" frameWidth="357" frameHeight="502"/>
+	<SubTexture name="rube-floatiggg0014" x="1066" y="0" width="356" height="486" frameX="-1" frameY="-7" frameWidth="357" frameHeight="502"/>
+	<SubTexture name="rube-floatiggg0015" x="1066" y="0" width="356" height="486" frameX="-1" frameY="-7" frameWidth="357" frameHeight="502"/>
+	<SubTexture name="rube-floatiggg0016" x="0" y="0" width="356" height="485" frameX="-1" frameY="-4" frameWidth="357" frameHeight="502"/>
+	<SubTexture name="rube-floatiggg0017" x="0" y="0" width="356" height="485" frameX="-1" frameY="-4" frameWidth="357" frameHeight="502"/>
+	<SubTexture name="rube-floatiggg0018" x="0" y="0" width="356" height="485" frameX="-1" frameY="0" frameWidth="357" frameHeight="502"/>
+	<SubTexture name="rube-floatiggg0019" x="0" y="0" width="356" height="485" frameX="-1" frameY="0" frameWidth="357" frameHeight="502"/>
+</TextureAtlas>

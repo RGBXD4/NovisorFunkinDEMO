@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GF_Veteran.png">
+	<!-- Created with Adobe Animate version 18.0.0.107 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="VeteranDancingBeat0000" x="8" y="8" width="308" height="444" frameX="0" frameY="0" frameWidth="313" frameHeight="444"/>
+	<SubTexture name="VeteranDancingBeat0001" x="8" y="8" width="308" height="444" frameX="0" frameY="0" frameWidth="313" frameHeight="444"/>
+	<SubTexture name="VeteranDancingBeat0002" x="325" y="8" width="313" height="430" frameX="0" frameY="-14" frameWidth="313" frameHeight="444"/>
+	<SubTexture name="VeteranDancingBeat0003" x="325" y="8" width="313" height="430" frameX="0" frameY="-14" frameWidth="313" frameHeight="444"/>
+	<SubTexture name="VeteranDancingBeat0004" x="647" y="8" width="311" height="432" frameX="0" frameY="-12" frameWidth="313" frameHeight="444"/>
+	<SubTexture name="VeteranDancingBeat0005" x="647" y="8" width="311" height="432" frameX="0" frameY="-12" frameWidth="313" frameHeight="444"/>
+	<SubTexture name="VeteranDancingBeat0006" x="8" y="461" width="308" height="443" frameX="0" frameY="-1" frameWidth="313" frameHeight="444"/>
+	<SubTexture name="VeteranDancingBeat0007" x="8" y="461" width="308" height="443" frameX="0" frameY="-1" frameWidth="313" frameHeight="444"/>
+	<SubTexture name="VeteranDancingBeat0008" x="325" y="461" width="307" height="444" frameX="0" frameY="0" frameWidth="313" frameHeight="444"/>
+	<SubTexture name="VeteranDancingBeat0009" x="325" y="461" width="307" height="444" frameX="0" frameY="0" frameWidth="313" frameHeight="444"/>
+	<SubTexture name="VeteranDancingBeat0010" x="325" y="461" width="307" height="444" frameX="0" frameY="0" frameWidth="313" frameHeight="444"/>
+	<SubTexture name="VeteranDancingBeat0011" x="641" y="461" width="308" height="444" frameX="0" frameY="0" frameWidth="313" frameHeight="444"/>
+	<SubTexture name="VeteranDancingBeat0012" x="641" y="461" width="308" height="444" frameX="0" frameY="0" frameWidth="313" frameHeight="444"/>
+</TextureAtlas>
