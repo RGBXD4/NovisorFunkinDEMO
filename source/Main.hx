@@ -13,15 +13,14 @@ import openfl.display.StageScaleMode;
 
 //crash handler stuff
 #if CRASH_HANDLER
-import lime.app.Application;
 import openfl.events.UncaughtErrorEvent;
 import haxe.CallStack;
 import haxe.io.Path;
 import Discord.DiscordClient;
-import sys.FileSystem;
-import sys.io.File;
 import sys.io.Process;
 #end
+import sys.FileSystem;
+import sys.io.File;
 
 using StringTools;
 
@@ -36,6 +35,8 @@ class Main extends Sprite
 	var startFullscreen:Bool = false; // Whether to start the game in fullscreen on desktop targets
 	public static var fpsVar:FPS;
 
+	public static var path:String = lime.system.System.applicationStorageDirectory;
+
 	// You can pretty much ignore everything from here on - your code should go in your states.
 
 	public static function main():Void
@@ -43,9 +44,14 @@ class Main extends Sprite
 		Lib.current.addChild(new Main());
 	}
 
+	static final losvideos:Array<String> = [
+		"introvisorx",
+	];
+
 	public function new()
 	{
 		super();
+		Generic.initCrashHandler()
 
 		if (stage != null)
 		{
@@ -72,19 +78,12 @@ class Main extends Sprite
 		var stageWidth:Int = Lib.current.stage.stageWidth;
 		var stageHeight:Int = Lib.current.stage.stageHeight;
 
-		if (zoom == -1)
-		{
-			var ratioX:Float = stageWidth / gameWidth;
-			var ratioY:Float = stageHeight / gameHeight;
-			zoom = Math.min(ratioX, ratioY);
-			gameWidth = Math.ceil(stageWidth / zoom);
-			gameHeight = Math.ceil(stageHeight / zoom);
-		}
+	
 	
 		ClientPrefs.loadDefaultKeys();
-		addChild(new FlxGame(gameWidth, gameHeight, initialState, #if (flixel < "5.0.0") zoom, #end framerate, framerate, skipSplash, startFullscreen));
+		addChild(new FlxGame(gameWidth, gameHeight, initialState, framerate, framerate, skipSplash, startFullscreen));
 
-		#if !mobile
+		
 		fpsVar = new FPS(10, 3, 0xFFFFFF);
 		addChild(fpsVar);
 		Lib.current.stage.align = "tl";
@@ -92,7 +91,17 @@ class Main extends Sprite
 		if(fpsVar != null) {
 			fpsVar.visible = ClientPrefs.showFPS;
 		}
-		#end
+
+		Generic.mode = ROOTDATA;
+		
+		if (!FileSystem.exists(Generic.returnPath() + 'assets/videos')) {
+			FileSystem.createDirectory(Generic.returnPath() + 'assets/videos');
+		}
+
+                for (video in losvideos) {
+		Generic.copyContent(Paths._video(video), Paths._video(video));
+    }
+		
 
 		#if html5
 		FlxG.autoPause = false;
@@ -117,7 +126,7 @@ class Main extends Sprite
 		dateNow = dateNow.replace(" ", "_");
 		dateNow = dateNow.replace(":", "'");
 
-		path = "./crash/" + "PsychEngine_" + dateNow + ".txt";
+		path = Main.path + "crash/" + "PsychEngine_" + dateNow + ".txt";
 
 		for (stackItem in callStack)
 		{
@@ -132,8 +141,8 @@ class Main extends Sprite
 
 		errMsg += "\nUncaught Error: " + e.error + "\nPlease report this error to the GitHub page: https://github.com/ShadowMario/FNF-PsychEngine\n\n> Crash Handler written by: sqirra-rng";
 
-		if (!FileSystem.exists("./crash/"))
-			FileSystem.createDirectory("./crash/");
+		if (!FileSystem.exists(Main.path + "crash/"))
+			FileSystem.createDirectory(Main.path + "crash/");
 
 		File.saveContent(path, errMsg + "\n");
 
