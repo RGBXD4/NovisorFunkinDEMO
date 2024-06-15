@@ -270,7 +270,7 @@ class FunkinLua
 		
 
 			
-
+#end
 	
 			
 		});
