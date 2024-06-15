@@ -68,11 +68,6 @@ class VisualsUISubState extends BaseOptionsMenu
 		option.onChange = onChangeFPSCounter;
 		#end
 
-		var option:Option = new Option('Pause Screen Song:', "What song do you prefer for the Pause Screen?", 'pauseMusic', 'string', 'Tea Time',
-			['None', 'Breakfast', 'Tea Time']);
-		addOption(option);
-		option.onChange = onChangePauseMusic;
-
 		#if CHECK_FOR_UPDATES
 		var option:Option = new Option('Check for Updates', 'On Release builds, turn this on to check for updates when you start the game.',
 			'checkForUpdates', 'bool', true);
@@ -82,10 +77,6 @@ class VisualsUISubState extends BaseOptionsMenu
 		var option:Option = new Option('Combo Stacking',
 			"If unchecked, Ratings and Combo won't stack, saving on System Memory and making them easier to read", 'comboStacking', 'bool', true);
 		addOption(option);
-		
-		#if android
-		addVirtualPad(UP_DOWN, A_B);
-		#end
 
 		super();
 	}

@@ -105,10 +105,6 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 		option.maxValue = 10;
 		option.changeValue = 0.1;
 		addOption(option);
-		
-		#if android
-		addVirtualPad(UP_DOWN, A_B);
-		#end
 
 		super();
 	}

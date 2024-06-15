@@ -47,10 +47,6 @@ class NotesSubState extends MusicBeatSubstate
 	public function new()
 	{
 		super();
-		
-		#if android
-		addVirtualPad(UP_DOWN, A_B);
-		#end
 
 		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
 		bg.color = 0xFFea71fd;

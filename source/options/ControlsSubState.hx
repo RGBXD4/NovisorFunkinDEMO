@@ -7,6 +7,7 @@ import flash.text.TextField;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.addons.display.FlxGridOverlay;
+import flixel.addons.display.FlxBackdrop;
 import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.math.FlxMath;
 import flixel.text.FlxText;
@@ -24,6 +25,9 @@ import flixel.util.FlxTimer;
 import flixel.input.keyboard.FlxKey;
 import flixel.graphics.FlxGraphic;
 import Controls;
+import openfl.filters.ShaderFilter;
+import Shaders;
+import openfl.display.Shader;
 
 using StringTools;
 
@@ -47,19 +51,28 @@ class ControlsSubState extends MusicBeatSubstate
 	var rebindingKey:Bool = false;
 	var nextAccept:Int = 5;
 
+	var starFG:FlxBackdrop;
+	var starBG:FlxBackdrop;
+
 	public function new()
 	{
 		super();
-		
-		#if android
-		addVirtualPad(UP_DOWN, A_B);
-		#end
 
-		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
-		bg.color = 0xFFea71fd;
-		bg.screenCenter();
-		bg.antialiasing = ClientPrefs.globalAntialiasing;
-		add(bg);
+		var shader:Shaders.ChromaticAberrationEffect = new Shaders.ChromaticAberrationEffect();
+		shader.setChrome(0.003);
+		FlxG.camera.setFilters([new ShaderFilter(shader.shader)]);
+
+		var titlebg:FlxSprite = new FlxSprite(0, 0).makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
+		titlebg.scrollFactor.set();
+		add(titlebg);
+
+		starFG = new FlxBackdrop(Paths.image('mainmenu/mainmenuV4/starFG'), XY);
+		starFG.antialiasing = ClientPrefs.globalAntialiasing;
+		add(starFG);
+
+		starBG = new FlxBackdrop(Paths.image('mainmenu/mainmenuV4/starBG'), XY);
+		starBG.antialiasing = ClientPrefs.globalAntialiasing;
+		add(starBG);
 
 		grpOptions = new FlxTypedGroup<Alphabet>();
 		add(grpOptions);
@@ -86,6 +99,7 @@ class ControlsSubState extends MusicBeatSubstate
 			}
 			optionText.changeX = false;
 			optionText.distancePerItem.y = 60;
+			optionText.color = FlxColor.WHITE;
 			optionText.targetY = i - curSelected;
 			optionText.snapToPosition();
 			grpOptions.add(optionText);
@@ -106,6 +120,9 @@ class ControlsSubState extends MusicBeatSubstate
 
 	override function update(elapsed:Float)
 	{
+		starFG.x -= 0.03;
+		starBG.x -= 0.01;
+
 		if (!rebindingKey)
 		{
 			if (controls.UI_UP_P)

@@ -5,6 +5,7 @@ import Discord.DiscordClient;
 #end
 import flash.text.TextField;
 import flixel.FlxG;
+import flixel.addons.display.FlxBackdrop;
 import flixel.FlxSprite;
 import flixel.addons.display.FlxGridOverlay;
 import flixel.group.FlxGroup.FlxTypedGroup;
@@ -13,10 +14,14 @@ import flixel.text.FlxText;
 import flixel.util.FlxColor;
 import lime.utils.Assets;
 import flixel.FlxSubState;
+import lime.app.Application;
 import flash.text.TextField;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.util.FlxSave;
+import openfl.filters.ShaderFilter;
+import Shaders;
+import openfl.display.Shader;
 import haxe.Json;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
@@ -29,14 +34,7 @@ using StringTools;
 
 class OptionsState extends MusicBeatState
 {
-	var options:Array<String> = [
-		'Note Colors',
-		'Controls',
-		'Adjust Delay and Combo',
-		'Graphics',
-		'Visuals and UI',
-		'Gameplay'
-	];
+	var options:Array<String> = ['Controls', 'Adjust Delay and Combo', 'Graphics', 'Visuals and UI', 'Gameplay'];
 	private var grpOptions:FlxTypedGroup<Alphabet>;
 
 	private static var curSelected:Int = 0;
@@ -46,41 +44,44 @@ class OptionsState extends MusicBeatState
 	{
 		switch (label)
 		{
-			case 'Note Colors':
-			#if android
-				removeVirtualPad();
-				#end
-				openSubState(new options.NotesSubState());
 			case 'Controls':
 			#if android
 				removeVirtualPad();
 				#end
 				openSubState(new options.ControlsSubState());
+				Application.current.window.title = "Novisor Funkin' - Control Settings";
 			case 'Graphics':
 			#if android
 				removeVirtualPad();
 				#end
 				openSubState(new options.GraphicsSettingsSubState());
+				Application.current.window.title = "Novisor Funkin' - Graphic Settings";
 			case 'Visuals and UI':
 			#if android
 				removeVirtualPad();
 				#end
 				openSubState(new options.VisualsUISubState());
+				Application.current.window.title = "Novisor Funkin' - Visual and  UI Settings";
 			case 'Gameplay':
 			#if android
 				removeVirtualPad();
 				#end
 				openSubState(new options.GameplaySettingsSubState());
+				Application.current.window.title = "Novisor Funkin' - Gameplay Settings";
 			case 'Adjust Delay and Combo':
 			#if android
 				removeVirtualPad();
 				#end
 				LoadingState.loadAndSwitchState(new options.NoteOffsetState());
+				Application.current.window.title = "Novisor Funkin' - Adjust Delay & Combo Settings";
 		}
 	}
 
 	var selectorLeft:Alphabet;
 	var selectorRight:Alphabet;
+
+	var starFG:FlxBackdrop;
+	var starBG:FlxBackdrop;
 
 	override function create()
 	{
@@ -88,13 +89,31 @@ class OptionsState extends MusicBeatState
 		DiscordClient.changePresence("Options Menu", null);
 		#end
 
+		var shader:Shaders.ChromaticAberrationEffect = new Shaders.ChromaticAberrationEffect();
+		shader.setChrome(0.003);
+		FlxG.camera.setFilters([new ShaderFilter(shader.shader)]);
+
 		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
 		bg.color = 0xFFea71fd;
-		bg.updateHitbox();
+		// bg.updateHitbox();
 
 		bg.screenCenter();
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
-		add(bg);
+		// add(bg);
+
+		var titlebg:FlxSprite = new FlxSprite(0, 0).makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
+		titlebg.scrollFactor.set();
+		add(titlebg);
+
+		starFG = new FlxBackdrop(Paths.image('mainmenu/mainmenuV4/starFG'), XY);
+		starFG.antialiasing = ClientPrefs.globalAntialiasing;
+		add(starFG);
+
+		starBG = new FlxBackdrop(Paths.image('mainmenu/mainmenuV4/starBG'), XY);
+		starBG.antialiasing = ClientPrefs.globalAntialiasing;
+		add(starBG);
+
+		Application.current.window.title = "Novisor Funkin' - Options Menu";
 
 		grpOptions = new FlxTypedGroup<Alphabet>();
 		add(grpOptions);
@@ -131,6 +150,9 @@ class OptionsState extends MusicBeatState
 	override function update(elapsed:Float)
 	{
 		super.update(elapsed);
+
+		starFG.x -= 0.03;
+		starBG.x -= 0.01;
 
 		if (controls.UI_UP_P)
 		{

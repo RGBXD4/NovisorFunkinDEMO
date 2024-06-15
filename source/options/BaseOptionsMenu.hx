@@ -4,6 +4,7 @@ package options;
 import Discord.DiscordClient;
 #end
 import flash.text.TextField;
+import flixel.addons.display.FlxBackdrop;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.addons.display.FlxGridOverlay;
@@ -24,6 +25,9 @@ import flixel.util.FlxTimer;
 import flixel.input.keyboard.FlxKey;
 import flixel.graphics.FlxGraphic;
 import Controls;
+import openfl.filters.ShaderFilter;
+import Shaders;
+import openfl.display.Shader;
 
 using StringTools;
 
@@ -37,20 +41,18 @@ class BaseOptionsMenu extends MusicBeatSubstate
 	private var checkboxGroup:FlxTypedGroup<CheckboxThingie>;
 	private var grpTexts:FlxTypedGroup<AttachedText>;
 
-	private var boyfriend:Character = null;
 	private var descBox:FlxSprite;
 	private var descText:FlxText;
 
 	public var title:String;
 	public var rpcTitle:String;
 
+	var starFG:FlxBackdrop;
+	var starBG:FlxBackdrop;
+
 	public function new()
 	{
 		super();
-		
-		#if android
-		addVirtualPad(UP_DOWN, A_B);
-		#end
 
 		if (title == null)
 			title = 'Options';
@@ -61,11 +63,21 @@ class BaseOptionsMenu extends MusicBeatSubstate
 		DiscordClient.changePresence(rpcTitle, null);
 		#end
 
-		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
-		bg.color = 0xFFea71fd;
-		bg.screenCenter();
-		bg.antialiasing = ClientPrefs.globalAntialiasing;
-		add(bg);
+		var shader:Shaders.ChromaticAberrationEffect = new Shaders.ChromaticAberrationEffect();
+		shader.setChrome(0.003);
+		FlxG.camera.setFilters([new ShaderFilter(shader.shader)]);
+
+		var titlebg:FlxSprite = new FlxSprite(0, 0).makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
+		titlebg.scrollFactor.set();
+		add(titlebg);
+
+		starFG = new FlxBackdrop(Paths.image('mainmenu/mainmenuV4/starFG'), XY);
+		starFG.antialiasing = ClientPrefs.globalAntialiasing;
+		add(starFG);
+
+		starBG = new FlxBackdrop(Paths.image('mainmenu/mainmenuV4/starBG'), XY);
+		starBG.antialiasing = ClientPrefs.globalAntialiasing;
+		add(starBG);
 
 		// avoids lagspikes while scrolling through menus!
 		grpOptions = new FlxTypedGroup<Alphabet>();
@@ -122,11 +134,6 @@ class BaseOptionsMenu extends MusicBeatSubstate
 				optionsArray[i].setChild(valueText);
 			}
 			// optionText.snapToPosition(); //Don't ignore me when i ask for not making a fucking pull request to uncomment this line ok
-
-			if (optionsArray[i].showBoyfriend && boyfriend == null)
-			{
-				reloadBoyfriend();
-			}
 			updateTextFrom(optionsArray[i]);
 		}
 
@@ -147,6 +154,9 @@ class BaseOptionsMenu extends MusicBeatSubstate
 
 	override function update(elapsed:Float)
 	{
+		starFG.x -= 0.03;
+		starBG.x -= 0.01;
+
 		if (controls.UI_UP_P)
 		{
 			changeSelection(-1);
@@ -292,11 +302,6 @@ class BaseOptionsMenu extends MusicBeatSubstate
 			}
 		}
 
-		if (boyfriend != null && boyfriend.animation.curAnim.finished)
-		{
-			boyfriend.dance();
-		}
-
 		if (nextAccept > 0)
 		{
 			nextAccept -= 1;
@@ -361,31 +366,8 @@ class BaseOptionsMenu extends MusicBeatSubstate
 		descBox.setGraphicSize(Std.int(descText.width + 20), Std.int(descText.height + 25));
 		descBox.updateHitbox();
 
-		if (boyfriend != null)
-		{
-			boyfriend.visible = optionsArray[curSelected].showBoyfriend;
-		}
 		curOption = optionsArray[curSelected]; // shorter lol
 		FlxG.sound.play(Paths.sound('scrollMenu'));
-	}
-
-	public function reloadBoyfriend()
-	{
-		var wasVisible:Bool = false;
-		if (boyfriend != null)
-		{
-			wasVisible = boyfriend.visible;
-			boyfriend.kill();
-			remove(boyfriend);
-			boyfriend.destroy();
-		}
-
-		boyfriend = new Character(840, 170, 'bf', true);
-		boyfriend.setGraphicSize(Std.int(boyfriend.width * 0.75));
-		boyfriend.updateHitbox();
-		boyfriend.dance();
-		insert(1, boyfriend);
-		boyfriend.visible = wasVisible;
 	}
 
 	function reloadCheckboxes()
