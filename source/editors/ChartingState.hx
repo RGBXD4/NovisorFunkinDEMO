@@ -2663,7 +2663,7 @@ class ChartingState extends MusicBeatState
 			path = Paths.getPreloadPath('characters/' + Character.DEFAULT_CHARACTER +
 				'.json'); // If a character couldn't be found, change him to BF just to prevent a crash
 		}
-		l
+		
 		var rawJson = OpenFlAssets.getText(path);
 		
 
