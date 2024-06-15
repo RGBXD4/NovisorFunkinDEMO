@@ -262,12 +262,8 @@ class FunkinLua
 			if (!ClientPrefs.shaders)
 				return false;
 
-			#if (!flash && sys)
-			return initLuaShader(name, glslVersion);
-			#else
-			luaTrace("initLuaShader: Platform unsupported for Runtime Shaders!", false, false, FlxColor.RED);
-			#end
-			return false;
+			
+
 		});
 
 		Lua_helper.add_callback(lua, "setSpriteShader", function(obj:String, shader:String)
@@ -275,12 +271,7 @@ class FunkinLua
 			if (!ClientPrefs.shaders)
 				return false;
 
-			#if (!flash && sys)
-			if (!PlayState.instance.runtimeShaders.exists(shader) && !initLuaShader(shader))
-			{
-				luaTrace('setSpriteShader: Shader $shader is missing!', false, false, FlxColor.RED);
-				return false;
-			}
+			
 
 			var killMe:Array<String> = obj.split('.');
 			var leObj:FlxSprite = getObjectDirectly(killMe[0]);
@@ -3185,7 +3176,9 @@ class FunkinLua
 			{
 				PlayState.instance.clearShaderFromCamera(camera);
 			});
+			#if desktop
 			Discord.DiscordClient.addLuaCallbacks(lua);
+			#end
 		}
 
 		Lua_helper.add_callback(lua, "directoryFileList", function(folder:String)
