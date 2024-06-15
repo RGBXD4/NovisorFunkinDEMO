@@ -22,7 +22,8 @@ class FlashingState extends MusicBeatState
 		super.create();
 		
 		#if android
-		addVirtualPad(NONE, A_B);
+		addVirtualPad(NONE, A);
+		addPadCamera();
 		#end
 
 		var bg:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
