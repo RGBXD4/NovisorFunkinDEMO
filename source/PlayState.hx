@@ -1539,6 +1539,11 @@ class PlayState extends MusicBeatState
 		timeTxt.cameras = [camHUD];
 		songText.cameras = [camHUD];
 		doof.cameras = [camHUD];
+		
+		#if android
+		addAndroidControls();
+		androidc.visible = false;
+		#end
 
 		countdown3 = new FlxSprite();
 		countdown3.frames = Paths.getSparrowAtlas('3', 'shared');
@@ -2592,6 +2597,10 @@ public function startVideo(name:String)
 		{
 			if (skipCountdown || startOnTime > 0)
 				skipArrowStartTween = true;
+				
+			#if android
+                        androidc.visible = true;
+			#end
 
 			generateStaticArrows(0);
 			generateStaticArrows(1);
@@ -3645,7 +3654,7 @@ public function startVideo(name:String)
 			botplayTxt.alpha = 1 - Math.sin((Math.PI * botplaySine) / 180);
 		}
 
-		if (controls.PAUSE && startedCountdown && canPause)
+		if (controls.PAUSE #if android || FlxG.android.justReleased.BACK #end && startedCountdown && canPause)
 		{
 			var ret:Dynamic = callOnLuas('onPause', [], false);
 			if (ret != FunkinLua.Function_Stop)
