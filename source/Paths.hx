@@ -173,6 +173,11 @@ class Paths
 	static public function video(key:String)
 	{
 	
+		return Generic.returnPath() + 'assets/videos/$key.$VIDEO_EXT';
+	}
+
+static public function _video(key:String)
+	{
 		return 'assets/videos/$key.$VIDEO_EXT';
 	}
 
