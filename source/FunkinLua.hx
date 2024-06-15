@@ -3200,7 +3200,7 @@ class FunkinLua
 		});
 
 		call('onCreate', []);
-		#end
+		
 	}
 
 	public static function isOfTypes(value:Any, types:Array<Dynamic>)
