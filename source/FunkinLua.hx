@@ -3330,18 +3330,7 @@ class FunkinLua
 
 	function initLuaShader(name:String, ?glslVersion:Int = 120)
 	{
-		if (!ClientPrefs.shaders)
-			return false;
-
-		#if (!flash && sys)
-		if (PlayState.instance.runtimeShaders.exists(name))
-		{
-			luaTrace('Shader $name was already initialized!');
-			return true;
-		}
-
-	
-		return false;
+		
 	}
 
 	function getGroupStuff(leArray:Dynamic, variable:String)
