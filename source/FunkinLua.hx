@@ -259,8 +259,7 @@ class FunkinLua
 		// shader shit
 		Lua_helper.add_callback(lua, "initLuaShader", function(name:String, glslVersion:Int = 120)
 		{
-			if (!ClientPrefs.shaders)
-				return false;
+			
 
 			
 
@@ -268,28 +267,12 @@ class FunkinLua
 
 		Lua_helper.add_callback(lua, "setSpriteShader", function(obj:String, shader:String)
 		{
-			if (!ClientPrefs.shaders)
-				return false;
+		
 
 			
 
-			var killMe:Array<String> = obj.split('.');
-			var leObj:FlxSprite = getObjectDirectly(killMe[0]);
-			if (killMe.length > 1)
-			{
-				leObj = getVarInArray(getPropertyLoopThingWhatever(killMe), killMe[killMe.length - 1]);
-			}
-
-			if (leObj != null)
-			{
-				var arr:Array<String> = PlayState.instance.runtimeShaders.get(shader);
-				leObj.shader = new FlxRuntimeShader(arr[0], arr[1]);
-				return true;
-			}
-			#else
-			luaTrace("setSpriteShader: Platform unsupported for Runtime Shaders!", false, false, FlxColor.RED);
-			#end
-			return false;
+	
+			
 		});
 		Lua_helper.add_callback(lua, "removeSpriteShader", function(obj:String)
 		{
