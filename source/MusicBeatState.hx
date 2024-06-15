@@ -32,11 +32,6 @@ class MusicBeatState extends FlxUIState
 	private var curDecBeat:Float = 0;
 	private var controls(get, never):Controls;
 
-	@:noPrivateAccess @:noCompletion
-	private static var startSpeed(default, never):Float = 0.25;
-	@:noPrivateAccess @:noCompletion
-	private static var endSpeed(default, never):Float = 0.25;
-
 	public static var camBeat:FlxCamera;
 
 	inline function get_controls():Controls
@@ -125,7 +120,7 @@ class MusicBeatState extends FlxUIState
 
 		if (!skip)
 		{
-			openSubState(new CustomFadeTransition(startSpeed, true));
+			openSubState(new CustomTilesTransition(true));
 		}
 		FlxTransitionableState.skipNextTransOut = false;
 	}
@@ -140,7 +135,7 @@ class MusicBeatState extends FlxUIState
 
 		if (oldStep != curStep)
 		{
-			if (curStep >= 0)
+			if (curStep > 0)
 				stepHit();
 
 			if (PlayState.SONG != null)
@@ -217,10 +212,10 @@ class MusicBeatState extends FlxUIState
 		var leState:MusicBeatState = curState;
 		if (!FlxTransitionableState.skipNextTransIn)
 		{
-			leState.openSubState(new CustomFadeTransition(endSpeed, false));
+			leState.openSubState(new CustomTilesTransition(false));
 			if (nextState == FlxG.state)
 			{
-				CustomFadeTransition.finishCallback = function()
+				CustomTilesTransition.finishCallback = function()
 				{
 					FlxG.resetState();
 				};
@@ -228,7 +223,7 @@ class MusicBeatState extends FlxUIState
 			}
 			else
 			{
-				CustomFadeTransition.finishCallback = function()
+				CustomTilesTransition.finishCallback = function()
 				{
 					FlxG.switchState(nextState);
 				};
