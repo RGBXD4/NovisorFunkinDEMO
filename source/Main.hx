@@ -46,6 +46,7 @@ class Main extends Sprite
 
 	static final losvideos:Array<String> = [
 		"introvisorx",
+		"fictional",
 	];
 
 	public function new()
