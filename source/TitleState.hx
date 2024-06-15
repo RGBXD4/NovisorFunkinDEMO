@@ -42,7 +42,7 @@ import Shaders;
 import openfl.display.Shader;
 
 #if VIDEOS_ALLOWED
-import vlc.MP4Handler;
+import VideoHandler;
 #end
 
 using StringTools;
