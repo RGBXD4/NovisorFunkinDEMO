@@ -36,7 +36,12 @@ class PauseSubState extends MusicBeatSubstate
 	public function new(x:Float, y:Float)
 	{
 		super();
-		// FlxG.mouse.visible = true;
+		
+		#if android
+		addVirtualPad(UP_DOWN, A_B);
+		addPadCamera();
+		#end
+		
 		if (CoolUtil.difficulties.length < 2)
 			menuItemsOG.remove('Change Difficulty'); // No need to change difficulty if there is only one!
 
@@ -85,27 +90,27 @@ class PauseSubState extends MusicBeatSubstate
 		var levelInfo:FlxText = new FlxText(20, 15, 0, "", 32);
 		levelInfo.text += PlayState.SONG.song;
 		levelInfo.scrollFactor.set();
-		levelInfo.setFormat(CoolUtil.defaultFont, 32);
+		levelInfo.setFormat(Paths.font("vcr.ttf"), 32);
 		levelInfo.updateHitbox();
 		add(levelInfo);
 
 		var levelDifficulty:FlxText = new FlxText(20, 15 + 32, 0, "", 32);
 		levelDifficulty.text += CoolUtil.difficultyString();
 		levelDifficulty.scrollFactor.set();
-		levelDifficulty.setFormat(CoolUtil.defaultFont, 32);
+		levelDifficulty.setFormat(Paths.font('vcr.ttf'), 32);
 		levelDifficulty.updateHitbox();
 		add(levelDifficulty);
 
 		var blueballedTxt:FlxText = new FlxText(20, 15 + 64, 0, "", 32);
 		blueballedTxt.text = "Blueballed: " + PlayState.deathCounter;
 		blueballedTxt.scrollFactor.set();
-		blueballedTxt.setFormat(CoolUtil.defaultFont, 32);
+		blueballedTxt.setFormat(Paths.font('vcr.ttf'), 32);
 		blueballedTxt.updateHitbox();
 		add(blueballedTxt);
 
 		practiceText = new FlxText(20, 15 + 101, 0, "PRACTICE MODE", 32);
 		practiceText.scrollFactor.set();
-		practiceText.setFormat(CoolUtil.defaultFont, 32);
+		practiceText.setFormat(Paths.font('vcr.ttf'), 32);
 		practiceText.x = FlxG.width - (practiceText.width + 20);
 		practiceText.updateHitbox();
 		practiceText.visible = PlayState.instance.practiceMode;
@@ -113,18 +118,12 @@ class PauseSubState extends MusicBeatSubstate
 
 		var chartingText:FlxText = new FlxText(20, 15 + 101, 0, "CHARTING MODE", 32);
 		chartingText.scrollFactor.set();
-		chartingText.setFormat(CoolUtil.defaultFont, 32);
+		chartingText.setFormat(Paths.font('vcr.ttf'), 32);
 		chartingText.x = FlxG.width - (chartingText.width + 20);
 		chartingText.y = FlxG.height - (chartingText.height + 20);
 		chartingText.updateHitbox();
 		chartingText.visible = PlayState.chartingMode;
 		add(chartingText);
-
-		/*var fcTxt = new FlxText(0,0,0,PlayState.instance.fc?"Full Combo":"Not Full Combo",16);
-			fcTxt.scrollFactor.set();
-			fcTxt.setFormat(CoolUtil.defaultFont, 32);
-			fcTxt.setPosition(FlxG.width - (fcTxt.width + 20), 15 + 138);
-			add(fcTxt); */
 
 		blueballedTxt.alpha = 0;
 		levelDifficulty.alpha = 0;
@@ -144,11 +143,6 @@ class PauseSubState extends MusicBeatSubstate
 
 		regenMenu();
 		cameras = [FlxG.cameras.list[FlxG.cameras.list.length - 1]];
-		
-		#if android
-		addVirtualPad(UP_DOWN, A_B);
-		addPadCamera();
-		#end
 	}
 
 	var holdTime:Float = 0;
@@ -233,14 +227,12 @@ class PauseSubState extends MusicBeatSubstate
 			switch (daSelected)
 			{
 				case "Resume":
-					// FlxG.mouse.visible = false;
 					close();
 				case 'Change Difficulty':
 					menuItems = difficultyChoices;
 					deleteSkipTimeText();
 					regenMenu();
 				case 'Toggle Practice Mode':
-					PlayState.instance.fc = false;
 					PlayState.instance.practiceMode = !PlayState.instance.practiceMode;
 					PlayState.changedDifficulty = true;
 					practiceText.visible = PlayState.instance.practiceMode;
@@ -250,7 +242,6 @@ class PauseSubState extends MusicBeatSubstate
 					restartSong();
 					PlayState.chartingMode = false;
 				case 'Skip Time':
-					PlayState.instance.fc = false;
 					if (curTime < Conductor.songPosition)
 					{
 						PlayState.startOnTime = curTime;
@@ -267,10 +258,8 @@ class PauseSubState extends MusicBeatSubstate
 					}
 				case "End Song":
 					close();
-					PlayState.instance.fc = false;
 					PlayState.instance.finishSong(true);
 				case 'Toggle Botplay':
-					PlayState.instance.fc = false;
 					PlayState.instance.cpuControlled = !PlayState.instance.cpuControlled;
 					PlayState.changedDifficulty = true;
 					PlayState.instance.botplayTxt.visible = PlayState.instance.cpuControlled;
@@ -388,7 +377,7 @@ class PauseSubState extends MusicBeatSubstate
 			if (menuItems[i] == 'Skip Time')
 			{
 				skipTimeText = new FlxText(0, 0, 0, '', 64);
-				skipTimeText.setFormat(CoolUtil.defaultFont, 64, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+				skipTimeText.setFormat(Paths.font("vcr.ttf"), 64, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 				skipTimeText.scrollFactor.set();
 				skipTimeText.borderSize = 2;
 				skipTimeTracker = item;
