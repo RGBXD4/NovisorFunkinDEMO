@@ -37,11 +37,6 @@ class PauseSubState extends MusicBeatSubstate
 	{
 		super();
 		
-		#if android
-		addVirtualPad(UP_DOWN, A);
-		addPadCamera();
-		#end
-		
 		if (CoolUtil.difficulties.length < 2)
 			menuItemsOG.remove('Change Difficulty'); // No need to change difficulty if there is only one!
 
@@ -143,6 +138,11 @@ class PauseSubState extends MusicBeatSubstate
 
 		regenMenu();
 		cameras = [FlxG.cameras.list[FlxG.cameras.list.length - 1]];
+
+		#if android
+		addVirtualPad(UP_DOWN, A);
+		addPadCamera();
+		#end
 	}
 
 	var holdTime:Float = 0;
