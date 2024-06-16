@@ -103,6 +103,12 @@ class AndroidControlsMenu extends MusicBeatState
 		tipText.scrollFactor.set();
 		add(tipText);
 
+		var bText:FlxText = new FlxText(10, FlxG.hight 0, 0, 'this mod port by RGBXD4 lol', 16)
+		bText.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		bText.borderSize = 2;
+		bText.scrollFactor.set();
+		add(bText);
+
 		changeSelection();
 	}
 
